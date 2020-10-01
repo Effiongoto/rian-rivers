@@ -1,0 +1,151 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #095256;
+}
+.container{
+	width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    overflow: hidden;
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER SECTION *****/
+
+header {
+    height: 800px;
+    width: 100%;
+    background-image: url("../img/hero-image.png");
+    background-position: center;
+    background-size: auto;
+}
+header h1 {
+    font-size: 30px;
+    color: #bbc085;
+    padding: 25px 0 65px 25px;
+}
+nav {
+    float: right;
+    padding: 35px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: 800px;
+    text-align: center;
+    clear: both;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #c9ca39;
+    padding: 20px 200px;
+    padding-bottom: 0;
+}
+header p {
+    width: 800px;
+    text-align: center;
+    clear: both;
+    font-size: 48px;
+    padding: 20px 200px;
+    padding-top: 0;
+}
+
+/***** WORK SECTION *****/
+
+#portfolio h2{
+    text-align: center;
+    padding: 30px 0 80px 0;
+    font-size: 36px;
+}
+#portfolio .half-width{
+    padding-bottom: 50px;
+}
+#portfolio .full-width{
+    padding-bottom: 90px;
+}
+.project{
+
+}
+
+/***** ABOUT SECTION *****/
+
+#about{
+    background: #087e8b;
+    color: white;
+}
+#about h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 30px 0 80px 0;
+}
+#about h3{
+    margin: 0;
+}
+#about .full-width{
+    padding-bottom: 90px;
+}
+.statement h3{
+    font-size: 24px;
+}
+.statement p{
+    font-size: 24px;
+}
+
+/***** FOOTER SECTION *****/
+footer{
+    background: #095156;
+    margin-top: -30px;
+    color: white;
+    text-align: center;
+}
+footer h2{
+    text-align: center;
+    padding: 30px 0 80px 0;
+    font-size: 36px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+    background: #095156;
+}
+#contact a {
+    text-decoration: none;
+    color: #095156;
+    font-weight: bold;
+    font-size: 28px;
+}
+.footer{
+    font-size: 18px;
+}
